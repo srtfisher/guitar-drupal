@@ -3,6 +3,7 @@
 /sites/*/private
 /files/*
 /cache
+/tmp
 
 # Ignore paths for Devel Themer and SimpleHTMLDOM
 /sites/all/modules/contrib/devel_themer
