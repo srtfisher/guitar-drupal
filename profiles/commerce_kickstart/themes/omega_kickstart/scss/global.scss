@@ -1893,10 +1893,12 @@ div.messages.commerce-add-to-cart-confirmation {
       .form-submit {
         background: #2698F2;
         border: 0;
-        @include rounded-corners(2px);
+        @include rounded-corners(0);
         color: #ffffff;
         font-family: $headerfont;
-        font-size: 17px;
+        font-size: 14px;
+        line-height: 32px;
+        text-transform: uppercase;
         font-weight: 400;
         margin-top: 40px;
         margin-left: 5px; /* LTR */

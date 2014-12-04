@@ -1659,13 +1659,15 @@ div.messages.commerce-add-to-cart-confirmation {
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
       background: #2698F2;
       border: 0;
-      -moz-border-radius: 2px;
-      -webkit-border-radius: 2px;
-      -khtml-border-radius: 2px;
-      border-radius: 2px;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      -khtml-border-radius: 0;
+      border-radius: 0;
       color: #ffffff;
       font-family: "Open Sans", sans-serif;
-      font-size: 17px;
+      font-size: 14px;
+      line-height: 32px;
+      text-transform: uppercase;
       font-weight: 400;
       margin-top: 40px;
       margin-left: 5px;

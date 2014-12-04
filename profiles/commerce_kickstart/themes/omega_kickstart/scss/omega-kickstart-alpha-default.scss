@@ -33,7 +33,7 @@
     float: left; /* LTR */
     text-align: left; /* LTR */
     max-width: 280px;
-    margin: 0 0 -100px;
+    margin: 0 0 -125px;
   }
 }
 /**
@@ -83,6 +83,7 @@
         display: inline;
         font: 400 13px/40px $font-sans;
         color: darken($brand-faint-grey, 25%);
+        text-transform: uppercase;
         border-left: none;
         border-right: none;
 
@@ -97,7 +98,7 @@
 
       }
       &.last a {
-        
+
         margin-right: 0; /* LTR */
         margin-left: -2px; /* LTR */
       }

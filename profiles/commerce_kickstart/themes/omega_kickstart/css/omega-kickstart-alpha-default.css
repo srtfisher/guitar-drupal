@@ -33,7 +33,7 @@
     text-align: left;
     /* LTR */
     max-width: 280px;
-    margin: 0 0 -100px; }
+    margin: 0 0 -125px; }
 
 /**
 * Search block
@@ -85,6 +85,7 @@
         display: inline;
         font: 400 13px/40px "Open Sans", sans-serif;
         color: #aeaeae;
+        text-transform: uppercase;
         border-left: none;
         border-right: none; }
         .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover,
