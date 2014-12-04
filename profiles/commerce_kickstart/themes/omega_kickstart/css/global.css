@@ -1307,28 +1307,31 @@ body.activebar-container .zone-footer2-wrapper {
   .page-products .view-display-products li .commerce-product-field {
     margin-bottom: 5px; }
   .page-products .view-display-products li header {
-    background: transparent url("../images/bg_product_attributes_top.png") center top no-repeat; }
+    background: transparent; }
     .page-products .view-display-products li header h2 {
+      font: 400 22px/20px "Open Sans", sans-serif;
       clear: both;
-      font-size: 14px;
       height: 35px;
-      line-height: 16px;
       margin: 0 4px;
       padding-top: 20px; }
     .page-products .view-display-products li header a {
       color: #000;
+      font-size: 22px;
+      text-decoration: none; }
+  .page-products .view-display-products li .content {
+    font-family: "Open Sans", sans-serif; }
+    .page-products .view-display-products li .content .field-label {
+      text-transform: uppercase; }
+    .page-products .view-display-products li .content .commerce-product-field {
       font-size: 14px;
       text-decoration: none; }
-  .page-products .view-display-products li .content .commerce-product-field {
-    font-size: 14px;
-    text-decoration: none; }
-  .page-products .view-display-products li .content .field-name-commerce-price {
-    color: #858787;
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 400; }
-    .page-products .view-display-products li .content .field-name-commerce-price .price_prefix p {
-      display: inline; }
+    .page-products .view-display-products li .content .field-name-commerce-price {
+      color: #858787;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 400; }
+      .page-products .view-display-products li .content .field-name-commerce-price .price_prefix p {
+        display: inline; }
   .page-products .view-display-products li .field-name-field-color .vocabulary-color,
   .page-products .view-display-products li .views-field-field-extractor-field-product ul li {
     border: 1px solid #CBCDCC;

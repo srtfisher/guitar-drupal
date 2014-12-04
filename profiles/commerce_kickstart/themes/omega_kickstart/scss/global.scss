@@ -1465,18 +1465,18 @@ body.activebar-container .zone-footer2-wrapper {
         margin-bottom: 5px;
       }
       header {
-        background: transparent url('../images/bg_product_attributes_top.png') center top no-repeat;
+        background: transparent;
+
         h2 {
+          font: 400 22px/20px $font-sans;
           clear: both;
-          font-size: 14px;
           height: 35px;
-          line-height: 16px;
           margin: 0 4px;
           padding-top: 20px;
         }
         a {
           color: #000;
-          font-size: 14px;
+          font-size: 22px;
           text-decoration: none;
         }
       }
@@ -1484,6 +1484,11 @@ body.activebar-container .zone-footer2-wrapper {
         //display: none;
       }
       .content {
+        font-family: $font-sans;
+
+        .field-label {
+          text-transform: uppercase;
+        }
         .commerce-product-field {
           font-size: 14px;
           text-decoration: none;
