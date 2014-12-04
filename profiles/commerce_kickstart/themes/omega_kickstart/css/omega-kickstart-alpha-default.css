@@ -31,7 +31,9 @@
     float: left;
     /* LTR */
     text-align: left;
-    /* LTR */ }
+    /* LTR */
+    max-width: 280px;
+    margin: 0 0 -100px; }
 
 /**
 * Search block
@@ -81,21 +83,17 @@
       .navigation .primary-menu ul li a,
       .navigation .second-menu ul li a {
         display: inline;
-        border-left-width: 0;
-        border-right-width: 0; }
+        font: 400 13px/40px "Open Sans", sans-serif;
+        color: #aeaeae;
+        border-left: none;
+        border-right: none; }
         .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover,
         .navigation .second-menu ul li a.active,
         .navigation .second-menu ul li a:hover {
           border-left-width: 0;
           border-right-width: 0; }
-      .navigation .primary-menu ul li.first a,
-      .navigation .second-menu ul li.first a {
-        border-left: 1px solid #CCC;
-        /* LTR */ }
       .navigation .primary-menu ul li.last a,
       .navigation .second-menu ul li.last a {
-        border-right: 1px solid #CCC;
-        /* LTR */
         margin-right: 0;
         /* LTR */
         margin-left: -2px;

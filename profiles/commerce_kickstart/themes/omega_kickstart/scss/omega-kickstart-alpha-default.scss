@@ -32,6 +32,8 @@
   .logo-img {
     float: left; /* LTR */
     text-align: left; /* LTR */
+    max-width: 280px;
+    margin: 0 0 -100px;
   }
 }
 /**
@@ -79,8 +81,10 @@
 
       a {
         display: inline;
-        border-left-width: 0;
-        border-right-width: 0;
+        font: 400 13px/40px $font-sans;
+        color: darken($brand-faint-grey, 25%);
+        border-left: none;
+        border-right: none;
 
         &.active,
         &:hover {
@@ -90,10 +94,10 @@
       }
 
       &.first a {
-        border-left: $mainmenuitemborder; /* LTR */
+
       }
       &.last a {
-        border-right: $mainmenuitemborder; /* LTR */
+        
         margin-right: 0; /* LTR */
         margin-left: -2px; /* LTR */
       }
@@ -211,7 +215,7 @@
       border: 0;
     }
   }
-  
+
   .block-blog-block .block-inner .block-title {
     display: block;
   }
