@@ -1,6 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* Include Default Variables & Mixins */
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800|Vollkorn:400,700|Gentium+Basic:400,700");
 /* End Variables & Mixins */
 /**************************************************
 * --
@@ -91,11 +90,11 @@
           border-right-width: 0; }
       .navigation .primary-menu ul li.first a,
       .navigation .second-menu ul li.first a {
-        border-left: 1px solid #cccccc;
+        border-left: 1px solid #CCC;
         /* LTR */ }
       .navigation .primary-menu ul li.last a,
       .navigation .second-menu ul li.last a {
-        border-right: 1px solid #cccccc;
+        border-right: 1px solid #CCC;
         /* LTR */
         margin-right: 0;
         /* LTR */
@@ -127,9 +126,9 @@
       border-left-width: 0;
       border-right-width: 0; }
   .zone-menu .block-menu ul.menu li.first a {
-    border-left: 1px solid #cccccc; }
+    border-left: 1px solid #CCC; }
   .zone-menu .block-menu ul.menu li.last a {
-    border-right: 1px solid #cccccc; }
+    border-right: 1px solid #CCC; }
 
 /**************************************************
 * --
@@ -436,3 +435,5 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 /* Address book */
 .page-user-addressbook .view-commerce-addressbook td {
   display: table-cell; }
+
+/*# sourceMappingURL=omega-kickstart-alpha-default.css.map */

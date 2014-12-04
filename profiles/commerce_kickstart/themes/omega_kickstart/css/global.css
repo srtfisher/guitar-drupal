@@ -1,9 +1,8 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
-@import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* Override Omega */
 /* Include Default Variables & Mixins */
+@import url("//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800|Vollkorn:400,700|Gentium+Basic:400,700");
 /* End Variables & Mixins */
 /*------------------------------------------------
 [Table of contents]
@@ -137,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0; }
 
 a:link, a:visited {
-  color: #2698f2;
+  color: #2698F2;
   text-decoration: none; }
 
 a:hover {
@@ -207,7 +206,7 @@ select {
 * 2.1. Zone user
 **********************************************/
 .zone-user-wrapper {
-  background-color: #888888;
+  background-color: #888;
   height: 34px;
   width: 100%; }
 
@@ -246,7 +245,7 @@ select {
       right: 50%; }
       .block-menu-user-menu .content ul.menu li a {
         display: block;
-        color: white;
+        color: #FFF;
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
         -moz-border-radius: 4px;
@@ -258,7 +257,7 @@ select {
         .block-menu-user-menu .content ul.menu li a.active {
           text-decoration: underline; }
         .block-menu-user-menu .content ul.menu li a.active:hover, .block-menu-user-menu .content ul.menu li a:hover {
-          color: white;
+          color: #FFF;
           text-decoration: underline; }
 
 /*******************************************
@@ -329,7 +328,7 @@ select {
       line-height: 30px;
       margin: 0; }
       .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-quantity {
-        color: #2698f2;
+        color: #2698F2;
         text-decoration: none; }
       .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total {
         color: #888888;
@@ -343,9 +342,9 @@ select {
       .block-shopping-cart-block .content .view-shopping-cart .line-item-summary .line-item-total-label {
         display: none; }
       .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {
-        background-color: #999999;
+        background-color: #999;
         clear: none;
-        color: white;
+        color: #FFF;
         display: block;
         float: left;
         /* LTR */
@@ -360,7 +359,7 @@ select {
           margin: 0;
           padding: 0; }
           .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a {
-            color: white;
+            color: #FFF;
             font-weight: 700; }
             .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links li a:hover {
               text-decoration: underline; }
@@ -480,7 +479,7 @@ select {
     padding-bottom: 0; }
 
 .navigation {
-  background: #444444;
+  background: #444;
   display: none;
   padding-bottom: 10px;
   /* Main menu */
@@ -519,32 +518,32 @@ select {
           .navigation .second-menu ul li a:hover {
             text-decoration: none; }
   .navigation .primary-menu ul li a {
-    background-color: #eeeeee;
-    border: 1px solid #cccccc;
-    color: #888888;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    color: #888;
     text-transform: capitalize; }
     .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover {
-      background-color: white;
-      border: 1px solid #cccccc; }
+      background-color: #FFF;
+      border: 1px solid #CCC; }
     .navigation .primary-menu ul li a.active {
-      color: black; }
+      color: #000; }
     .navigation .primary-menu ul li a:hover {
-      color: #999999; }
+      color: #999; }
   .navigation .second-menu {
     clear: left; }
     .navigation .second-menu ul li a {
-      background-color: #eeeeee;
-      border: 1px solid #cccccc;
-      color: #888888;
+      background-color: #EEE;
+      border: 1px solid #CCC;
+      color: #888;
       padding: 12px 18px;
       text-transform: capitalize; }
       .navigation .second-menu ul li a.active, .navigation .second-menu ul li a:hover {
-        background-color: white;
-        border: 1px solid #cccccc; }
+        background-color: #FFF;
+        border: 1px solid #CCC; }
       .navigation .second-menu ul li a.active {
-        color: black; }
+        color: #000; }
       .navigation .second-menu ul li a:hover {
-        color: #999999; }
+        color: #999; }
 
 .zone-menu .block-menu {
   display: block;
@@ -559,9 +558,9 @@ select {
     padding: 0;
     width: 100%; }
     .zone-menu .block-menu ul.menu li a {
-      background-color: #eeeeee;
-      border: 1px solid #cccccc;
-      color: #888888;
+      background-color: #EEE;
+      border: 1px solid #CCC;
+      color: #888;
       display: block;
       font-family: "Open Sans", sans-serif;
       font-weight: 600;
@@ -569,12 +568,12 @@ select {
       text-decoration: none;
       text-transform: capitalize; }
       .zone-menu .block-menu ul.menu li a.active, .zone-menu .block-menu ul.menu li a:hover {
-        background-color: white;
-        border: 1px solid #cccccc; }
+        background-color: #FFF;
+        border: 1px solid #CCC; }
       .zone-menu .block-menu ul.menu li a.active {
-        color: black; }
+        color: #000; }
       .zone-menu .block-menu ul.menu li a:hover {
-        color: #999999;
+        color: #999;
         text-decoration: none; }
 
 /**************************************************
@@ -618,7 +617,7 @@ select {
     margin: 0 0 0 10px;
     /* LTR */ }
     #region-breadcrumb .pseudo-breadcrumb-total-results em {
-      color: #2698f2;
+      color: #2698F2;
       font-style: normal; }
   #region-breadcrumb .pseudo-breadcrumb {
     background-color: #eeeeee;
@@ -763,7 +762,7 @@ select {
   -webkit-border-radius: 8px;
   -khtml-border-radius: 8px;
   border-radius: 8px;
-  color: white;
+  color: #FFF;
   font-size: 14px;
   font-weight: normal;
   margin-top: 2em;
@@ -912,7 +911,7 @@ select {
   #zone-postscript .block-blog-block .block-inner .block-title {
     background: transparent url("../images/bg_block_homepage_title.png") -18% 100% no-repeat;
     /* LTR */
-    color: white;
+    color: #FFF;
     display: none;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -940,13 +939,13 @@ select {
     display: block; }
     #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
     #zone-postscript .block-blog-block .views-field-title .field-content {
-      color: white;
+      color: #FFF;
       line-height: 18px;
       padding: 0px; }
       #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
       #zone-postscript .block-blog-block .views-field-title .field-content a {
         background: #666;
-        color: white;
+        color: #FFF;
         display: block;
         font-family: "Open Sans", sans-serif;
         font-weight: 700;
@@ -962,7 +961,7 @@ select {
 * --
 **************************************************/
 .section-footer {
-  background-color: white; }
+  background-color: #FFF; }
 
 /**********************************************
 * 4.1. Zone footer
@@ -996,7 +995,7 @@ select {
       font-weight: 600;
       text-decoration: none; }
     .section-footer ul.menu li.expanded span {
-      color: #666666; }
+      color: #666; }
     .section-footer ul.menu li.expanded ul.menu {
       margin: 10px 0 0 0; }
       .section-footer ul.menu li.expanded ul.menu li {
@@ -1004,7 +1003,7 @@ select {
         float: none;
         padding: 0; }
         .section-footer ul.menu li.expanded ul.menu li a {
-          color: #999999;
+          color: #999;
           font-family: "Open Sans", sans-serif;
           font-weight: normal; }
           .section-footer ul.menu li.expanded ul.menu li a.active {
@@ -1045,7 +1044,7 @@ select {
       background-position: 2% 50%;
       /* LTR */
       background-repeat: no-repeat;
-      color: #999999;
+      color: #999;
       font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       display: block;
@@ -1066,7 +1065,7 @@ select {
 * 4.2. Zone footer2
 **********************************************/
 .zone-footer2-wrapper {
-  background-color: #cccccc;
+  background-color: #CCC;
   min-height: 60px;
   padding: 20px 0; }
 
@@ -1153,7 +1152,7 @@ body.activebar-container .zone-footer2-wrapper {
   .view-collection-products .view-header .taxonomy-title,
   .view-collection-taxonomy-term .view-header .taxonomy-title {
     clear: both;
-    color: white;
+    color: #FFF;
     font-family: "Open Sans", sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -1379,7 +1378,7 @@ body.activebar-container .zone-footer2-wrapper {
   .block-search-api-sorts .content ul.search-api-sorts {
     margin: 0; }
     .block-search-api-sorts .content ul.search-api-sorts li {
-      color: white;
+      color: #FFF;
       display: inline;
       float: left;
       /* LTR */
@@ -1399,7 +1398,7 @@ body.activebar-container .zone-footer2-wrapper {
         padding: 5px 12px; }
       .block-search-api-sorts .content ul.search-api-sorts li a {
         background-color: #cecece;
-        color: white;
+        color: #FFF;
         text-decoration: none; }
       .block-search-api-sorts .content ul.search-api-sorts li span a {
         background: none;
@@ -1413,7 +1412,7 @@ body.activebar-container .zone-footer2-wrapper {
         height: 13px;
         width: 13px; }
       .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active {
-        color: white;
+        color: #FFF;
         position: relative;
         padding-right: 25px;
         /* LTR */
@@ -1460,7 +1459,7 @@ div.messages.commerce-add-to-cart-confirmation {
     right: none;
     width: auto; }
     div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.checkout {
-      background-color: #2698f2; }
+      background-color: #2698F2; }
     div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .button.continue {
       background-color: #b3b3b3; }
   div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display {
@@ -1525,7 +1524,7 @@ div.messages.commerce-add-to-cart-confirmation {
           padding-right: 5px;
           /* LTR */ }
         div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-message-product-display .view-content .views-field-commerce-total .field-content {
-          color: #2698f2;
+          color: #2698F2;
           display: inline;
           float: right;
           /* LTR */
@@ -1604,11 +1603,11 @@ div.messages.commerce-add-to-cart-confirmation {
   .node-product-type .field-name-body .read-less a {
     background-image: url("../images/btn_read_less.png"); }
 .node-product-type .field-type-commerce-product-reference {
-  background: url("../images/bg_product_attributes_bottom.png") center bottom no-repeat;
+  background: transparent;
   margin-bottom: 15px;
   padding-bottom: 50px; }
   .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart {
-    background: url("../images/bg_product_attributes_top.png") center top no-repeat;
+    background: transparent;
     padding-top: 40px; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item {
       position: relative;
@@ -1642,7 +1641,7 @@ div.messages.commerce-add-to-cart-confirmation {
       border: 1px solid #CBCDCC;
       padding: 3px; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item-attributes-field-color .description-selected .field {
-      border-color: #2698f2; }
+      border-color: #2698F2; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart label {
       float: left;
       /* LTR */
@@ -1658,16 +1657,12 @@ div.messages.commerce-add-to-cart-confirmation {
       margin: 0;
       padding-bottom: 1em; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
-      background-color: #2698F2;
-      background-image: url("../images/bg_add_to_cart.png");
-      background-position: 90% 50%;
-      /* LTR */
-      background-repeat: no-repeat;
+      background: #2698F2;
       border: 0;
-      -moz-border-radius: 8px;
-      -webkit-border-radius: 8px;
-      -khtml-border-radius: 8px;
-      border-radius: 8px;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -khtml-border-radius: 2px;
+      border-radius: 2px;
       color: #ffffff;
       font-family: "Open Sans", sans-serif;
       font-size: 17px;
@@ -1675,7 +1670,7 @@ div.messages.commerce-add-to-cart-confirmation {
       margin-top: 40px;
       margin-left: 5px;
       /* LTR */
-      padding: 5px 50px 5px 10px;
+      padding: 5px 10px;
       /* LTR */ }
       .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit:hover {
         cursor: pointer; }
@@ -2107,15 +2102,15 @@ ol.inline.commerce-checkout-progress {
   list-style: none;
   margin: 1.5em 0 2em 0.5em; }
   .page-user-orders ul.action-links li a {
-    background: white;
-    background: -moz-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dddddd));
-    background: -webkit-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -o-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -ms-linear-gradient(top, white 0%, #dddddd 100%);
-    background: linear-gradient(to bottom, white 0%, #dddddd 100%);
-    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='white', endColorstr='#dddddd');
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#dddddd')";
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(100%, #DDDDDD));
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -o-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #DDDDDD 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFFFFF', endColorstr='#DDDDDD');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD')";
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
     -khtml-border-radius: 11px;
@@ -2719,10 +2714,10 @@ article.comment {
       padding-bottom: 20px; }
       .page-user form#user-login #user_login_form .login-password,
       .page-checkout form#user-login #user_login_form .login-password {
-        color: #2698f2; }
+        color: #2698F2; }
         .page-user form#user-login #user_login_form .login-password:hover,
         .page-checkout form#user-login #user_login_form .login-password:hover {
-          color: #2698f2;
+          color: #2698F2;
           text-decoration: underline; }
     .page-user form#user-login .create-account,
     .page-checkout form#user-login .create-account {
@@ -2741,13 +2736,13 @@ article.comment {
   .page-checkout a.login-register,
   .page-checkout a.login-account {
     background: #207cca;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698f2), color-stop(1, #207cca));
-    background: -moz-linear-gradient(top center, #2698f2 0%, #207cca 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2698F2), color-stop(1, #207cca));
+    background: -moz-linear-gradient(top center, #2698F2 0%, #207cca 100%);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -khtml-border-radius: 4px;
     border-radius: 4px;
-    color: white;
+    color: #FFF;
     font-size: 16px;
     margin-left: 0px;
     padding: 15px 20px; }
@@ -2755,7 +2750,7 @@ article.comment {
     .page-user a.login-account:hover,
     .page-checkout a.login-register:hover,
     .page-checkout a.login-account:hover {
-      background: #2698f2; }
+      background: #2698F2; }
   .page-user a.login-register,
   .page-checkout a.login-register {
     display: block;
@@ -2859,15 +2854,15 @@ article.comment {
   list-style: none;
   margin: 1.5em 0 2em 0.5em; }
   .page-user-addressbook ul.action-links li a {
-    background: white;
-    background: -moz-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #dddddd));
-    background: -webkit-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -o-linear-gradient(top, white 0%, #dddddd 100%);
-    background: -ms-linear-gradient(top, white 0%, #dddddd 100%);
-    background: linear-gradient(to bottom, white 0%, #dddddd 100%);
-    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='white', endColorstr='#dddddd');
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='#dddddd')";
+    background: #FFFFFF;
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(100%, #DDDDDD));
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -o-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: -ms-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #DDDDDD 100%);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFFFFF', endColorstr='#DDDDDD');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#DDDDDD')";
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
     -khtml-border-radius: 11px;
@@ -2963,3 +2958,5 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   .in-maintenance #page .page-wrapper {
     background: #fff;
     padding: 10px 10px 20px 10px; }
+
+/*# sourceMappingURL=global.css.map */
